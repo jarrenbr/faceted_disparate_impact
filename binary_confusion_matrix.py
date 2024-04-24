@@ -205,11 +205,6 @@ if __name__ == "__main__":
     di = BCM([[0,1], [20,0]])
 
     print("""
-    Please note there was an arithmetic error in Table 2 of the paper regarding B, marginal benefit. The correct values are:
-    A: -0.06 (likely no bias / slight bias for j)
-    B: 0.22 (likely bias for i and against j)
-    Alpha: 0.23 (likely bias for i and against j).
-    
     Recall that a negative value indicates bias against i (i's (FP-FN)/n > j's (FP-FN)/n),\
      and a positive value indicates bias against j.
     """)
